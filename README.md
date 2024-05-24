@@ -8,7 +8,7 @@ To be short, here is my summerized steps and the appendix steps.
 
 First we need to create a dictionary as the following architecture.
 
-`packaging_name/`
+`packaging_name/`\n
 `├── LICENSE`
 `├── pyproject.toml`
 `├── README.md`
