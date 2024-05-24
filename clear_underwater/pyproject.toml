@@ -1,0 +1,28 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[project]
+
+name = "color_enhance_lhuang"
+version = "0.0.11"
+authors = [
+  { name="Liqiang Huang", email="liqiang37uh@gmail.com" },
+]
+description = "Under water image clear color and deblur"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+[tool.setuptools]
+packages = {find = {where = ["src"]}}
+include-package-data = true
+
+[tool.setuptools.package-data]
+"color_enhance_lhuang" = ["model_best_2842.pth"]
+
+[project.urls]
+Homepage = "https://github.com/pypa/sampleproject"
+Issues = "https://github.com/pypa/sampleproject/issues"
