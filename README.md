@@ -62,6 +62,8 @@ dependencies = [
 ]
 The [tool.setuptools] and [tool.setuptools.package-data] is to declare the input files and package data locations.
 The [project.urls] is to provide the URLs for users' discussion.
+Most importent, you can't change anything after you uploading, you should change a new version to update it.
+So, here, the version is very importent, you need to change the version each time, otherwise it will raise error.
 
 # 3 src 
 
