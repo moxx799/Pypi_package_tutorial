@@ -8,17 +8,28 @@ To be short, here is my summerized steps and the appendix steps.
 
 First we need to create a dictionary as the following architecture.
 
-`packaging_name/`\n
+`packaging_name/`
+
 `├── LICENSE`
+
 `├── pyproject.toml`
+
 `├── README.md`
+
 `├── src/`
+
 `│   └── packaging_name/`
+
 `│       └── package_data/`
+
 `│           ├── checkpoints.pth`
+
 `│       ├── __init__.py`
+
 `│       └── example.py`
+
 `└── tests/`
+
 
 The LICENSE, README, init.py and tests will be skipped, it has been described in the official tutorial and are similar to the github repo.
 
